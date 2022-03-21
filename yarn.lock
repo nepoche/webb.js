@@ -3672,6 +3672,11 @@
     ffjavascript "^0.2.43"
     maci-crypto "^0.9.1"
 
+"@webb-tools/wasm-utils@^0.1.4-42":
+  version "0.1.4-42"
+  resolved "https://registry.yarnpkg.com/@webb-tools/wasm-utils/-/wasm-utils-0.1.4-42.tgz#00238913342e73827d0927df20955041ef336f86"
+  integrity sha512-XUyZk/PaKZdinploIHGcYTCdyGyamcwpvoM0ZNtWY2A9KbWqCbdTcZm/KVtEQChj87rxKLH7BOYWMAnkyafZcw==
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"

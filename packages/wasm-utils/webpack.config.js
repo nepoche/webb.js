@@ -32,7 +32,7 @@ module.exports = function () {
       new CopyPlugin([path.resolve(__dirname, 'public'), path.resolve(__dirname, 'package.json')]),
       new WasmPackPlugin({
         crateDirectory: __dirname,
-        extraArgs: `${args} --target browser`,
+        extraArgs: args,
         outDir: build,
         outName: 'wasm-utils'
       }),

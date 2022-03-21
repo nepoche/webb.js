@@ -217,6 +217,19 @@ function loopFunc(fn) {
   }
 }
 
+function publishWasmUtils() {
+  if (fs.existsSync('packages')) {
+    process.chdir('packages');
+
+    if (fs.existsSync('wasm-utils')) {
+      process.chdir('wasm-utils');
+      npmPublish();
+      process.chdir('..');
+    }
+    process.chdir('..');
+  }
+}
+
 gitSetup();
 gitBump();
 npmSetup();
@@ -226,5 +239,7 @@ runCheck();
 runBuild();
 runTest();
 
-gitPush();
-loopFunc(npmPublish);
+//gitPush();
+//loopFunc(npmPublish);
+publishWasmUtils();
+
