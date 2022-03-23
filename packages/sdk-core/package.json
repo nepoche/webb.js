@@ -1,6 +1,6 @@
 {
   "name": "@nepoche/sdk-core",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "the core of webb tools sdk",
   "main": "index.js",
   "author": "Webb Developers <drew@webb.tools>",
@@ -16,8 +16,8 @@
   "homepage": "https://github.com/nepoche/webb.js",
   "dependencies": {
     "@types/events": "^3.0.0",
-    "@nepoche/api": "0.1.5",
-    "@nepoche/wasm-utils": "0.1.5",
+    "@nepoche/api": "0.1.6",
+    "@nepoche/wasm-utils": "0.1.6",
     "bignumber.js": "^9.0.0",
     "events": "^3.2.0",
     "lodash": "^4.17.20"

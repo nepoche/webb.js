@@ -63,7 +63,11 @@ export class Note {
    * Supports the browser and Node.js.
    */
   private static get wasm () {
-    return import('@nepoche/wasm-utils');
+    if (typeof process !== 'undefined' && process.versions != null && process.versions.node != null) {
+      return import('@nepoche/wasm-utils/njs');
+    } else {
+      return import('@nepoche/wasm-utils');
+    }
   }
 
   /**

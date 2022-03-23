@@ -55,6 +55,9 @@
       "@nepoche/wasm-utils": [
         "packages/wasm-utils/build"
       ],
+      "@nepoche/wasm-utils/njs": [
+        "packages/wasm-utils/build/njs"
+      ],
       "@nepoche/wasm-utils/*": [
         "packages/wasm-utils/build/*"
       ]

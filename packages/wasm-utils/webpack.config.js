@@ -7,7 +7,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 const WasmPackPlugin = require('@wasm-tool/wasm-pack-plugin');
 
 module.exports = function () {
-  // const nodeBuild = path.join(__dirname, 'build', 'njs');
+  const nodeBuild = path.join(__dirname, 'build', 'njs');
   const build = path.join(__dirname, 'build');
 
   try {
@@ -30,17 +30,17 @@ module.exports = function () {
     },
     plugins: [
       new CopyPlugin([path.resolve(__dirname, 'public'), path.resolve(__dirname, 'package.json')]),
-      // new WasmPackPlugin({
-      //   crateDirectory: __dirname,
-      //   extraArgs: args,
-      //   outDir: build,
-      //   outName: 'wasm-utils'
-      // }),
       new WasmPackPlugin({
         crateDirectory: __dirname,
         extraArgs: `${args} --target browser`,
         outDir: build,
         outName: 'wasm-utils'
+      }),
+      new WasmPackPlugin({
+        crateDirectory: __dirname,
+        extraArgs: `${args} --target nodejs`,
+        outDir: nodeBuild,
+        outName: 'wasm-utils-njs'
       })
     ]
   };

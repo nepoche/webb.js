@@ -1,4 +1,4 @@
-import { JsNote, OperationError } from '@nepoche/wasm-utils';
+import { JsNote, OperationError } from '@nepoche/wasm-utils/njs';
 import { ApiPromise } from '@polkadot/api';
 import { Keyring } from '@polkadot/keyring';
 import { KeyringPair } from '@polkadot/keyring/types';

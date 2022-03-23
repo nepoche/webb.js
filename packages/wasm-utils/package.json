@@ -1,7 +1,7 @@
 {
   "author": "Webb Developers",
   "name": "@nepoche/wasm-utils",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "scripts": {
     "build": "rimraf build pkg && webpack",
     "start": "rimraf build pkg && webpack-dev-server --open -d",
@@ -15,7 +15,11 @@
     "wasm-utils_bg.wasm",
     "wasm-utils.js",
     "wasm-utils_bg.js",
-    "wasm-utils.d.ts"
+    "wasm-utils.d.ts",
+    "njs/package.json",
+    "njs/wasm-utils-njs_bg.wasm",
+    "njs/wasm-utils-njs.js",
+    "njs/wasm-utils-njs.d.ts"
   ],
   "module": "wasm-utils.js",
   "types": "wasm-utils.d.ts",

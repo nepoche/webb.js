@@ -6,13 +6,13 @@ import {
   JsNote,
   JsNoteBuilder,
   ProofInputBuilder,
-} from '@nepoche/wasm-utils';
+} from '@nepoche/wasm-utils/njs';
 import { hexToU8a, u8aToHex } from '@polkadot/util';
 import { decodeAddress } from '@polkadot/keyring';
 import path from 'path';
 import fs from 'fs';
 import { SubmittableExtrinsic } from '@polkadot/api/promise/types';
-import { OperationError } from '@nepoche/wasm-utils';
+import { OperationError } from '@nepoche/wasm-utils/njs';
 import { BigNumber } from 'ethers';
 
 /// <reference path="@nepoche/types/interfaces/types.d.ts"
