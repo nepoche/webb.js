@@ -6,7 +6,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable prefer-promise-reject-errors */
-import type { Backend, Curve, HashFunction, JsNote, NoteProtocol, Version } from '@webb-tools/wasm-utils';
+import type { Backend, Curve, HashFunction, JsNote, NoteProtocol, Version } from '@nepoche/wasm-utils';
 
 /**
  * The note input used to generate a `Note` instance.
@@ -63,11 +63,7 @@ export class Note {
    * Supports the browser and Node.js.
    */
   private static get wasm () {
-    if (typeof process !== 'undefined' && process.versions != null && process.versions.node != null) {
-      return import('@webb-tools/wasm-utils/njs');
-    } else {
-      return import('@webb-tools/wasm-utils');
-    }
+    return import('@nepoche/wasm-utils');
   }
 
   /**

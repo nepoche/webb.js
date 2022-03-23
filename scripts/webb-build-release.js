@@ -230,9 +230,9 @@ function publishWasmUtils() {
   }
 }
 
-gitSetup();
-gitBump();
-npmSetup();
+// gitSetup();
+// gitBump();
+// npmSetup();
 
 runClean();
 runCheck();
@@ -240,6 +240,6 @@ runBuild();
 runTest();
 
 //gitPush();
-//loopFunc(npmPublish);
-publishWasmUtils();
+loopFunc(npmPublish);
+// publishWasmUtils();
 

@@ -1,6 +1,6 @@
 {
-  "name": "@webb-tools/app-util",
-  "version": "0.1.4-43",
+  "name": "@nepoche/app-util",
+  "version": "0.1.5",
   "description": "Utilities to work with Webb",
   "author": "Webb Developers <drew@webb.tools>",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "repository": "https://github.com/webb-tools/webb.js.git",
+  "repository": "https://github.com/nepoche/webb.js.git",
   "dependencies": {
     "@babel/runtime": "^7.10.2",
     "bignumber.js": "^9.0.0"

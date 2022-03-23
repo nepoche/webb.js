@@ -1,9 +1,9 @@
 // Copyright 2022 @webb-tools/
 // SPDX-License-Identifier: Apache-2.0
 
-import type { JsProofInput, Leaves, Proof } from '@webb-tools/wasm-utils';
+import type { JsProofInput, Leaves, Proof } from '@nepoche/wasm-utils';
 
-import { ProofI } from '@webb-tools/sdk-core/proving/proving-manager';
+import { ProofI } from '@nepoche/sdk-core/proving/proving-manager';
 
 import { Note } from '../note';
 
@@ -51,13 +51,13 @@ export class ProvingManagerWrapper {
   }
 
   private static get proofBuilder () {
-    return import('@webb-tools/wasm-utils').then((wasm) => {
+    return import('@nepoche/wasm-utils').then((wasm) => {
       return wasm.ProofInputBuilder;
     });
   }
 
   private static async generateProof (proofInput: JsProofInput): Promise<Proof> {
-    const wasm = await import('@webb-tools/wasm-utils');
+    const wasm = await import('@nepoche/wasm-utils');
 
     return wasm.generate_proof_js(proofInput);
   }

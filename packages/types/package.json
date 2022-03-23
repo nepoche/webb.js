@@ -1,6 +1,6 @@
 {
-  "name": "@webb-tools/types",
-  "version": "0.1.4-43",
+  "name": "@nepoche/types",
+  "version": "0.1.5",
   "description": "Polkadot.js type definations for Webb Network",
   "main": "index.js",
   "author": "Webb Developers <drew@webb.tools>",
@@ -9,18 +9,17 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "repository": "https://github.com/webb-tools/webb.js.git",
+  "repository": "https://github.com/nepoche/webb.js.git",
   "bugs": {
-    "url": "https://github.com/webb-tools/webb.js/issues"
+    "url": "https://github.com/nepoche/webb.js/issues"
   },
-  "homepage": "https://github.com/webb-tools/webb.js",
+  "homepage": "https://github.com/nepoche/webb.js",
   "dependencies": {
     "@babel/runtime": "^7.10.2",
     "@open-web3/orml-types": "^1.0.1",
-    "@polkadot/metadata": "^4.17.1",
-    "@polkadot/typegen": "^7.12.1",
-    "@polkadot/types": "^7.12.1",
-    "@webb-tools/type-definitions": "0.1.4-43"
+    "@polkadot/typegen": "^7.13.1",
+    "@polkadot/types": "^7.13.1",
+    "@nepoche/type-definitions": "0.1.5"
   },
   "devDependencies": {
     "@types/websocket": "^1.0.0",

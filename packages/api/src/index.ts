@@ -1,7 +1,7 @@
 // Copyright 2022 @webb-tools/
 // SPDX-License-Identifier: Apache-2.0
 
-import { rpc as webbRpc, types as webbTypes, typesAlias as webbTypesAlias, typesBundle as webbTypesBundle } from '@webb-tools/types';
+import { rpc as webbRpc, types as webbTypes, typesAlias as webbTypesAlias, typesBundle as webbTypesBundle } from '@nepoche/types';
 
 import { ApiOptions } from '@polkadot/api/types';
 

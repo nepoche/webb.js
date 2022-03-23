@@ -978,7 +978,7 @@ dependencies = [
 [[package]]
 name = "webb-pedersen-hash"
 version = "0.1.0"
-source = "git+https://github.com/webb-tools/webb-rs.git#b8fdce4342d1cea1c06b474b3c6a8bc9e765e247"
+source = "git+https://github.com/webb-tools/webb-rs.git#7eccd68b1d4a34ae9c8d1710263a93385c40e958"
 dependencies = [
  "ark-crypto-primitives",
  "ark-ed-on-bn254",

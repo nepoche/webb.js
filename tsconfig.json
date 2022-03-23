@@ -2,12 +2,9 @@
   "exclude": [
     "build/**/*",
     "**/build/**/*",
-    "scripts"
   ],
   "include": [
     "packages/**/*",
-    "examples/*",
-    "tests/**/*"
   ],
   "compilerOptions": {
     "types": ["mocha", "node"],
@@ -25,40 +22,40 @@
     "baseUrl": ".",
     "allowJs": true,
     "paths": {
-      "@webb-tools/api": [
+      "@nepoche/api": [
         "packages/api/src"
       ],
-      "@webb-tools/api/*": [
+      "@nepoche/api/*": [
         "packages/api/src/*"
       ],
-      "@webb-tools/types": [
+      "@nepoche/types": [
         "packages/types/src"
       ],
-      "@webb-tools/types/*": [
+      "@nepoche/types/*": [
         "packages/types/src/*"
       ],
-      "@webb-tools/type-definitions": [
+      "@nepoche/type-definitions": [
         "packages/type-definitions/src"
       ],
-      "@webb-tools/type-definitions/*": [
+      "@nepoche/type-definitions/*": [
         "packages/type-definitions/src/*"
       ],
-      "@webb-tools/sdk-core": [
+      "@nepoche/sdk-core": [
         "packages/sdk-core/src"
       ],
-      "@webb-tools/sdk-core/*": [
+      "@nepoche/sdk-core/*": [
         "packages/sdk-core/src/*"
       ],
-      "@webb-tools/app-util": [
+      "@nepoche/app-util": [
         "packages/app-util/src"
       ],
-      "@webb-tools/app-util/*": [
+      "@nepoche/app-util/*": [
         "packages/app-util/src/*"
       ],
-      "@webb-tools/wasm-utils": [
+      "@nepoche/wasm-utils": [
         "packages/wasm-utils/build"
       ],
-      "@webb-tools/wasm-utils/*": [
+      "@nepoche/wasm-utils/*": [
         "packages/wasm-utils/build/*"
       ]
     },

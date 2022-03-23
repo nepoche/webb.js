@@ -6,16 +6,16 @@ import {
   JsNote,
   JsNoteBuilder,
   ProofInputBuilder,
-} from '@webb-tools/wasm-utils/njs';
+} from '@nepoche/wasm-utils';
 import { hexToU8a, u8aToHex } from '@polkadot/util';
 import { decodeAddress } from '@polkadot/keyring';
 import path from 'path';
 import fs from 'fs';
 import { SubmittableExtrinsic } from '@polkadot/api/promise/types';
-import { OperationError } from '@webb-tools/wasm-utils/njs';
+import { OperationError } from '@nepoche/wasm-utils';
 import { BigNumber } from 'ethers';
 
-/// <reference path="@webb-tools/types/interfaces/types.d.ts"
+/// <reference path="@nepoche/types/interfaces/types.d.ts"
 export function currencyToUnitI128(currencyAmount: number) {
   let bn = BigNumber.from(currencyAmount);
   return bn.mul(1_000_000_000_000);

@@ -1,10 +1,9 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
+import type { TreeId } from '@nepoche/types/interfaces/merkle';
+import type { AccountId, AssetId, Balance, BlockNumber, ChainId, LockIdentifier } from '@nepoche/types/interfaces/runtime';
 import type { Bytes, Enum, Struct, U8aFixed, bool, u8 } from '@polkadot/types-codec';
-import type { ChainId } from '@polkadot/types/interfaces/bridges';
-import type { TreeId } from '@webb-tools/types/interfaces/merkle';
-import type { AccountId, AssetId, Balance, BlockNumber, LockIdentifier } from '@webb-tools/types/interfaces/runtime';
 
 /** @name DarkwebbPrimitivesDepositDetails */
 export interface DarkwebbPrimitivesDepositDetails extends Struct {

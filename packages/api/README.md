@@ -1,3 +1,3 @@
-# @webb-tools/api
+# @nepoche/api
 
 Contains necessary options to create a polkadot.js API instance
