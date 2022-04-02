@@ -1,9 +1,9 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 import { expect } from 'chai';
 
-import { FixedPointNumber } from '../fixed-point-number';
+import { FixedPointNumber } from '../fixed-point-number.js';
 
 describe('fixed point number constructor should work', () => {
   it('toString & toNumber', () => {

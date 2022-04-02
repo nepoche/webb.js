@@ -1,10 +1,10 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 import BigNumber from 'bignumber.js';
 import { expect } from 'chai';
 
-import { Fixed18 } from '../fixed-18';
+import { Fixed18 } from '../fixed-18.js';
 
 describe('fixed 128 constructor', () => {
   it('constructor should work', () => {

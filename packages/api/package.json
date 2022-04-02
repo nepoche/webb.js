@@ -2,7 +2,9 @@
   "name": "@nepoche/api",
   "version": "0.1.6",
   "description": "Webb JS API",
-  "main": "index.js",
+  "main": "index.cjs",
+  "module": "index.js",
+  "type": "module",
   "author": "Webb Developers <drew@webb.tools>",
   "license": "Apache-2.0",
   "publishConfig": {
@@ -16,8 +18,8 @@
   "homepage": "https://github.com/nepoche/webb.js",
   "dependencies": {
     "@babel/runtime": "^7.10.2",
-    "@polkadot/api": "^7.13.1",
-    "@polkadot/rpc-core": "^7.13.1",
+    "@polkadot/api": "7.13.1",
+    "@polkadot/rpc-core": "7.13.1",
     "@nepoche/types": "0.1.6"
   }
 }

@@ -1,4 +1,4 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
@@ -48,8 +48,8 @@ const { runtime, ...substrateDefinitions } = defaultDefinitions;
 
 // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 const definitions = {
-  '@nepoche/types/interfaces': webbDefinitions,
-  '@polkadot/types/interfaces': substrateDefinitions
+  '@polkadot/types/interfaces': substrateDefinitions,
+  '@nepoche/types/interfaces': webbDefinitions
 } as any;
 
 const metadata = filterModules(

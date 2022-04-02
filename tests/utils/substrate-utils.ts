@@ -5,14 +5,14 @@ import {
   generate_proof_js,
   JsNote,
   JsNoteBuilder,
+  OperationError,
   ProofInputBuilder,
-} from '@nepoche/wasm-utils/njs';
+} from '@nepoche/wasm-utils/njs/wasm-utils-njs.js';
 import { hexToU8a, u8aToHex } from '@polkadot/util';
 import { decodeAddress } from '@polkadot/keyring';
 import path from 'path';
 import fs from 'fs';
 import { SubmittableExtrinsic } from '@polkadot/api/promise/types';
-import { OperationError } from '@nepoche/wasm-utils/njs';
 import { BigNumber } from 'ethers';
 
 /// <reference path="@nepoche/types/interfaces/types.d.ts"
@@ -397,6 +397,7 @@ export async function withdrawAnchorBnx5_4(
     'fixed-anchor',
     'bn254',
     'x5',
+    '2',
     'proving_key_uncompressed.bin'
   );
   const pk = fs.readFileSync(pkPath);

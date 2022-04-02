@@ -1,4 +1,4 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 /* eslint-disable @typescript-eslint/no-unused-vars */
@@ -64,9 +64,9 @@ export class Note {
    */
   private static get wasm () {
     if (typeof process !== 'undefined' && process.versions != null && process.versions.node != null) {
-      return import('@nepoche/wasm-utils/njs');
+      return import('@nepoche/wasm-utils/njs/wasm-utils-njs.js');
     } else {
-      return import('@nepoche/wasm-utils');
+      return import('@nepoche/wasm-utils/wasm-utils.js');
     }
   }
 

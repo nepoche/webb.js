@@ -1,12 +1,12 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 import { CurrencyId } from '@nepoche/types/interfaces';
 
 import { ApiPromise, ApiRx } from '@polkadot/api';
 
-import { FixedPointNumber } from './fixed-point-number';
-import { CHAIN } from './type';
+import { FixedPointNumber } from './fixed-point-number.js';
+import { CHAIN } from './type.js';
 
 export interface TokenConfig {
   chain?: CHAIN; // which chain the token is in

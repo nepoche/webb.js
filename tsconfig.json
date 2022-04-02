@@ -9,8 +9,8 @@
   "compilerOptions": {
     "types": ["mocha", "node"],
     "declaration": true,
-    "target": "ES2020",
-    "module": "CommonJS",
+    "target": "ESNext",
+    "module": "ESNext",
     "jsx": "preserve",
     "strict": true,
     "noImplicitAny": true,
@@ -20,7 +20,9 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "baseUrl": ".",
-    "allowJs": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true, //
     "paths": {
       "@nepoche/api": [
         "packages/api/src"
@@ -55,15 +57,17 @@
       "@nepoche/wasm-utils": [
         "packages/wasm-utils/build"
       ],
-      "@nepoche/wasm-utils/njs": [
-        "packages/wasm-utils/build/njs"
-      ],
       "@nepoche/wasm-utils/*": [
         "packages/wasm-utils/build/*"
+      ],
+      "@nepoche/api-providers": [
+        "packages/api-providers/src"
+      ],
+      "@nepoche/api-providers/*": [
+        "packages/api-providers/src/*"
       ]
     },
-    "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
+
     "typeRoots": [
       "./node_modules/@polkadot/ts",
       "./node_modules/@types"
