@@ -1,4 +1,4 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 // eslint-disable-next-line  @typescript-eslint/no-var-requires

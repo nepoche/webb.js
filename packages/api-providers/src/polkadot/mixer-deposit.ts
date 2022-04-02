@@ -1,12 +1,12 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 
-import { Currency, DepositPayload as TDepositPayload, MixerSize, ORMLCurrency } from '@webb-tools/api-providers/index.js';
-import { LoggerService } from '@webb-tools/app-util/index.js';
-import { Note, NoteGenInput } from '@webb-tools/sdk-core/index.js';
-import { PalletMixerMixerMetadata } from '@webb-tools/types/interfaces/pallets/index.js';
+import { Currency, DepositPayload as TDepositPayload, MixerSize, ORMLCurrency } from '@nepoche/api-providers/index.js';
+import { LoggerService } from '@nepoche/app-util/index.js';
+import { Note, NoteGenInput } from '@nepoche/sdk-core/index.js';
+import { PalletMixerMixerMetadata } from '@nepoche/types/interfaces/pallets/index.js';
 
 import { u8aToHex } from '@polkadot/util';
 

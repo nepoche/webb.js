@@ -1,7 +1,7 @@
 ![license](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache&style=flat-square)
-[![npm](https://img.shields.io/npm/v/@webb-tools/api?logo=npm&style=flat-square)](https://www.npmjs.com/package/@webb-tools/api)
+[![npm](https://img.shields.io/npm/v/@nepoche/api?logo=npm&style=flat-square)](https://www.npmjs.com/package/@nepoche/api)
 
-# @webb-tools
+# @nepoche
 
 This library provides additional typing information for user to access Webb's modules by using [polkadot.js](https://github.com/polkadot-js/api)
 
@@ -12,7 +12,7 @@ More documentation and examples on [wiki](https://github.com/webb-tools/webb.js/
 - Install dependencies
 
 ```bash
-yarn add @polkadot/api @webb-tools/api@beta
+yarn add @polkadot/api @nepoche/api@beta
 ```
 
 - Create API instance
@@ -20,7 +20,7 @@ yarn add @polkadot/api @webb-tools/api@beta
 ```ts
 import { ApiPromise } from '@polkadot/api';
 import { WsProvider } from '@polkadot/rpc-provider';
-import { options } from '@webb-tools/api';
+import { options } from '@nepoche/api';
 
 async function main() {
     const provider = new WsProvider('wss://localhost:9944');

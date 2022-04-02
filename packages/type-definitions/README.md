@@ -1,4 +1,4 @@
-# @webb-tools/api-providers
+# @nepoche/api-providers
 
 # Api providers
 Api providers for integrating with the webb protocol

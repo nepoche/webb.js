@@ -1,7 +1,7 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { AppConfig } from '@webb-tools/api-providers/abstracts/index.js';
+import { AppConfig } from '@nepoche/api-providers/abstracts/index.js';
 
 import { Storage } from '../storage/index.js';
 import { getEVMChainName } from './chain-utils.js';

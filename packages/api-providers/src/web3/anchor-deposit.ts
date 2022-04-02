@@ -1,11 +1,11 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { getEVMChainNameFromInternal } from '@webb-tools/api-providers/utils/index.js';
-import { LoggerService } from '@webb-tools/app-util/index.js';
+import { getEVMChainNameFromInternal } from '@nepoche/api-providers/utils/index.js';
+import { LoggerService } from '@nepoche/app-util/index.js';
 // eslint-disable-next-line camelcase
-import { ERC20__factory as ERC20Factory } from '@webb-tools/contracts';
-import { Note, NoteGenInput } from '@webb-tools/sdk-core/index.js';
+import { ERC20__factory as ERC20Factory } from '@nepoche/contracts';
+import { Note, NoteGenInput } from '@nepoche/sdk-core/index.js';
 
 import { AnchorDeposit, Currency, DepositPayload as IDepositPayload, MixerSize } from '../abstracts/index.js';
 import { ChainType, chainTypeIdToInternalId, computeChainIdType, evmIdIntoInternalChainId, InternalChainId, parseChainIdType } from '../chains/index.js';

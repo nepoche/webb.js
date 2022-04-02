@@ -1,7 +1,7 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { Amount, MixerSize, WrappingBalance, WrappingEvent } from '@webb-tools/api-providers/index.js';
+import { Amount, MixerSize, WrappingBalance, WrappingEvent } from '@nepoche/api-providers/index.js';
 import { Observable } from 'rxjs';
 
 import { WrapUnWrap } from '../abstracts/index.js';

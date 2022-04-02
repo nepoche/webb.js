@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 
 // eslint-disable-next-line header/header
-import { InternalChainId } from '@webb-tools/api-providers/chains/index.js';
-import { PolkadotProvider } from '@webb-tools/api-providers/ext-providers/index.js';
-import { Account, AccountsAdapter, NotificationPayload, PromiseOrT, RelayerConfig, relayerNameToChainId, WebbPolkadot, WebbRelayerBuilder } from '@webb-tools/api-providers/index.js';
-import { InteractiveFeedback } from '@webb-tools/api-providers/webb-error/index.js';
+import { InternalChainId } from '@nepoche/api-providers/chains/index.js';
+import { PolkadotProvider } from '@nepoche/api-providers/ext-providers/index.js';
+import { Account, AccountsAdapter, NotificationPayload, PromiseOrT, RelayerConfig, relayerNameToChainId, WebbPolkadot, WebbRelayerBuilder } from '@nepoche/api-providers/index.js';
+import { InteractiveFeedback } from '@nepoche/api-providers/webb-error/index.js';
 
 import { InjectedAccount, InjectedExtension } from '@polkadot/extension-inject/types';
 

@@ -1,9 +1,9 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { AppConfig, MixerSize, NotificationHandler, Web3AnchorDeposit, WebbApiProvider, WebbMethods, WebbProviderEvents, WebbRelayerBuilder } from '@webb-tools/api-providers/index.js';
-import { EventBus } from '@webb-tools/app-util/index.js';
-import { Note } from '@webb-tools/sdk-core';
+import { AppConfig, MixerSize, NotificationHandler, Web3AnchorDeposit, WebbApiProvider, WebbMethods, WebbProviderEvents, WebbRelayerBuilder } from '@nepoche/api-providers/index.js';
+import { EventBus } from '@nepoche/app-util/index.js';
+import { Note } from '@nepoche/sdk-core';
 import { providers } from 'ethers';
 import { Eth } from 'web3-eth';
 

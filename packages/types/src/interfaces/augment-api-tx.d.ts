@@ -4,8 +4,8 @@
 import type { ApiTypes } from '@polkadot/api-base/types';
 import type { Bytes, Compact, Null, Option, Vec, bool, u128, u32, u8 } from '@polkadot/types-codec';
 import type { AnyNumber } from '@polkadot/types-codec/types';
-import type { DarkwebbStandaloneRuntimeElement, PalletAssetRegistryAssetType } from '@webb-tools/types/interfaces/pallets';
-import type { AccountId32, MultiAddress } from '@webb-tools/types/interfaces/runtime';
+import type { DarkwebbStandaloneRuntimeElement, PalletAssetRegistryAssetType } from '@nepoche/types/interfaces/pallets';
+import type { AccountId32, MultiAddress } from '@nepoche/types/interfaces/runtime';
 
 declare module '@polkadot/api-base/types/submittable' {
   export interface AugmentedSubmittables<ApiType extends ApiTypes> {

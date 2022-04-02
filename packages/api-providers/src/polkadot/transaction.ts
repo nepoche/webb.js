@@ -1,10 +1,10 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 
-import { NotificationHandler } from '@webb-tools/api-providers/index.js';
-import { EventBus, LoggerService } from '@webb-tools/app-util/index.js';
+import { NotificationHandler } from '@nepoche/api-providers/index.js';
+import { EventBus, LoggerService } from '@nepoche/app-util/index.js';
 import lodash from 'lodash';
 
 import { ApiPromise, SubmittableResult } from '@polkadot/api';

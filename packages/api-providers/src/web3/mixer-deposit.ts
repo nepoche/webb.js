@@ -1,8 +1,8 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { getEVMChainName, getNativeCurrencySymbol } from '@webb-tools/api-providers/utils/index.js';
-import { Note, NoteGenInput } from '@webb-tools/sdk-core/index.js';
+import { getEVMChainName, getNativeCurrencySymbol } from '@nepoche/api-providers/utils/index.js';
+import { Note, NoteGenInput } from '@nepoche/sdk-core/index.js';
 import utils from 'web3-utils';
 
 import { u8aToHex } from '@polkadot/util';

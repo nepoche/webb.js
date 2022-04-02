@@ -5,8 +5,8 @@ import type { ApiTypes } from '@polkadot/api-base/types';
 import type { Bytes, Null, Option, Vec, bool, u128, u32 } from '@polkadot/types-codec';
 import type { AnyNumber } from '@polkadot/types-codec/types';
 import type { Observable } from '@polkadot/types/types';
-import type { DarkwebbStandaloneRuntimeElement, OrmlTokensAccountData, OrmlTokensBalanceLock, PalletAnchorAnchorMetadata, PalletAssetRegistryAssetDetails, PalletAssetRegistryAssetMetadata, PalletMixerMixerMetadata } from '@webb-tools/types/interfaces/pallets';
-import type { AccountId32 } from '@webb-tools/types/interfaces/runtime';
+import type { DarkwebbStandaloneRuntimeElement, OrmlTokensAccountData, OrmlTokensBalanceLock, PalletAnchorAnchorMetadata, PalletAssetRegistryAssetDetails, PalletAssetRegistryAssetMetadata, PalletMixerMixerMetadata } from '@nepoche/types/interfaces/pallets';
+import type { AccountId32 } from '@nepoche/types/interfaces/runtime';
 
 declare module '@polkadot/api-base/types/storage' {
   export interface AugmentedQueries<ApiType extends ApiTypes> {

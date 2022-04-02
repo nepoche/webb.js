@@ -1,6 +1,6 @@
-import { options } from '@webb-tools/api';
+import { options } from '@nepoche/api';
 import { ApiPromise, Keyring, WsProvider } from '@polkadot/api';
-import { LoggerService } from '@webb-tools/app-util';
+import { LoggerService } from '@nepoche/app-util';
 import BN from 'bn.js';
 
 const ENDPOINT = 'ws://localhost:9944';

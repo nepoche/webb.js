@@ -1,8 +1,8 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { WebbCurrencyId } from '@webb-tools/api-providers/enums/index.js';
-import { ChainTypeId, chainTypeIdToInternalId, Currency, InternalChainId } from '@webb-tools/api-providers/index.js';
+import { WebbCurrencyId } from '@nepoche/api-providers/enums/index.js';
+import { ChainTypeId, chainTypeIdToInternalId, Currency, InternalChainId } from '@nepoche/api-providers/index.js';
 import { BehaviorSubject, Observable } from 'rxjs';
 
 export type BridgeCurrencyIndex = string | number | WebbCurrencyId;

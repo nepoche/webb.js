@@ -1,9 +1,9 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { AnchorApi } from '@webb-tools/api-providers/index.js';
-import { LoggerService } from '@webb-tools/app-util/index.js';
-import { Note, NoteGenInput } from '@webb-tools/sdk-core/index.js';
+import { AnchorApi } from '@nepoche/api-providers/index.js';
+import { LoggerService } from '@nepoche/app-util/index.js';
+import { Note, NoteGenInput } from '@nepoche/sdk-core/index.js';
 
 import { u8aToHex } from '@polkadot/util';
 

@@ -1,9 +1,9 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { Bridge, Currency, MixerSize, WrapUnWrap } from '@webb-tools/api-providers/abstracts/index.js';
-import { Amount, WrappingBalance, WrappingEvent } from '@webb-tools/api-providers/index.js';
-import { ERC20__factory as ERC20Factory } from '@webb-tools/contracts';
+import { Bridge, Currency, MixerSize, WrapUnWrap } from '@nepoche/api-providers/abstracts/index.js';
+import { Amount, WrappingBalance, WrappingEvent } from '@nepoche/api-providers/index.js';
+import { ERC20__factory as ERC20Factory } from '@nepoche/contracts';
 import { ContractTransaction } from 'ethers';
 import { BehaviorSubject, Observable, Subject } from 'rxjs';
 import Web3 from 'web3';

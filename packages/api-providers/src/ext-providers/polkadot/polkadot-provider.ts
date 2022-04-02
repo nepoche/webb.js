@@ -1,11 +1,11 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 
-import { options } from '@webb-tools/api/index.js';
-import { ApiInitHandler } from '@webb-tools/api-providers/index.js';
-import { EventBus, LoggerService } from '@webb-tools/app-util/index.js';
+import { options } from '@nepoche/api/index.js';
+import { ApiInitHandler } from '@nepoche/api-providers/index.js';
+import { EventBus, LoggerService } from '@nepoche/app-util/index.js';
 import lodash from 'lodash';
 
 import { ApiPromise, WsProvider } from '@polkadot/api';

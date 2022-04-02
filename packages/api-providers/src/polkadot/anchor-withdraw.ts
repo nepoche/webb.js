@@ -1,9 +1,9 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { fetchSubstrateAnchorProvingKey } from '@webb-tools/api-providers/ipfs/substrate/anchor.js';
-import { LoggerService } from '@webb-tools/app-util/index.js';
-import { Note, ProvingManager, ProvingManagerSetupInput } from '@webb-tools/sdk-core/index.js';
+import { fetchSubstrateAnchorProvingKey } from '@nepoche/api-providers/ipfs/substrate/anchor.js';
+import { LoggerService } from '@nepoche/app-util/index.js';
+import { Note, ProvingManager, ProvingManagerSetupInput } from '@nepoche/sdk-core/index.js';
 
 import { decodeAddress } from '@polkadot/keyring';
 import { hexToU8a, u8aToHex } from '@polkadot/util';

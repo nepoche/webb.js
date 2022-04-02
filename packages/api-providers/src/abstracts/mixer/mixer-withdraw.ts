@@ -1,9 +1,9 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { WebbApiProvider } from '@webb-tools/api-providers/index.js';
-import { EventBus } from '@webb-tools/app-util/index.js';
-import { Note } from '@webb-tools/sdk-core/index.js';
+import { WebbApiProvider } from '@nepoche/api-providers/index.js';
+import { EventBus } from '@nepoche/app-util/index.js';
+import { Note } from '@nepoche/sdk-core/index.js';
 import { BehaviorSubject, Observable } from 'rxjs';
 
 import { InternalChainId } from '../../chains/index.js';

@@ -1,4 +1,4 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
@@ -49,7 +49,7 @@ const { runtime, ...substrateDefinitions } = defaultDefinitions;
 // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 const definitions = {
   '@polkadot/types/interfaces': substrateDefinitions,
-  '@webb-tools/types/interfaces': webbDefinitions
+  '@nepoche/types/interfaces': webbDefinitions
 } as any;
 
 const metadata = filterModules(
@@ -75,7 +75,7 @@ const augmentApiIndex = `
 /// <reference path="./augment-types.d.ts" />
 `.trim();
 
-generateTsDef(definitions, 'packages/types/src/interfaces', '@webb-tools/types/interfaces');
+generateTsDef(definitions, 'packages/types/src/interfaces', '@nepoche/types/interfaces');
 generateInterfaceTypes(definitions, 'packages/types/src/interfaces/augment-types.d.ts');
 generateDefaultConsts('packages/types/src/interfaces/augment-api-consts.d.ts', metadata, definitions);
 

@@ -1,7 +1,7 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import merkle from '@webb-tools/type-definitions/merkle';
+import merkle from '@nepoche/type-definitions/merkle';
 
 import { Definitions } from '@polkadot/types/types';
 

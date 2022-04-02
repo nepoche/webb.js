@@ -1,8 +1,8 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { ProvingManagerSetupInput, ProvingManagerWrapper } from '@webb-tools/sdk-core/proving/proving-manager-thread.js';
-import { Proof } from '@webb-tools/wasm-utils';
+import { ProvingManagerSetupInput, ProvingManagerWrapper } from '@nepoche/sdk-core/proving/proving-manager-thread.js';
+import { Proof } from '@nepoche/wasm-utils';
 
 export type ProofI = Omit<Proof, 'free'>;
 

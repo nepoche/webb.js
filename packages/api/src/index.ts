@@ -1,7 +1,7 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import webbTypesPkg from '@webb-tools/types/index.js';
+import webbTypesPkg from '@nepoche/types/index.js';
 
 import { ApiOptions } from '@polkadot/api/types';
 

@@ -1,3 +1,3 @@
-# @webb-tools/app-util
+# @nepoche/app-util
 
 Utilities to work with Webb Network

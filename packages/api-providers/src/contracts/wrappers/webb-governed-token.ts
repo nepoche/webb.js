@@ -1,10 +1,10 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 /* eslint-disable camelcase */
 
-import { LoggerService } from '@webb-tools/app-util/index.js';
-import { GovernedTokenWrapper, GovernedTokenWrapper__factory } from '@webb-tools/contracts';
+import { LoggerService } from '@nepoche/app-util/index.js';
+import { GovernedTokenWrapper, GovernedTokenWrapper__factory } from '@nepoche/contracts';
 import { BigNumberish, Contract, PayableOverrides, providers, Signer } from 'ethers';
 
 import { zeroAddress } from './webb-utils.js';

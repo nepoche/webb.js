@@ -1,8 +1,8 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { ApiInitHandler, AppConfig, NotificationHandler, ProvideCapabilities, WasmFactory, WebbApiProvider, WebbMethods, WebbProviderEvents, WebbRelayerBuilder } from '@webb-tools/api-providers/index.js';
-import { EventBus } from '@webb-tools/app-util/index.js';
+import { ApiInitHandler, AppConfig, NotificationHandler, ProvideCapabilities, WasmFactory, WebbApiProvider, WebbMethods, WebbProviderEvents, WebbRelayerBuilder } from '@nepoche/api-providers/index.js';
+import { EventBus } from '@nepoche/app-util/index.js';
 
 import { ApiPromise } from '@polkadot/api';
 import { InjectedAccount, InjectedExtension } from '@polkadot/extension-inject/types';

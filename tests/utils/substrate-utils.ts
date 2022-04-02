@@ -7,7 +7,7 @@ import {
   JsNoteBuilder,
   OperationError,
   ProofInputBuilder,
-} from '@webb-tools/wasm-utils/njs/wasm-utils-njs.js';
+} from '@nepoche/wasm-utils/njs/wasm-utils-njs.js';
 import { hexToU8a, u8aToHex } from '@polkadot/util';
 import { decodeAddress } from '@polkadot/keyring';
 import path from 'path';
@@ -15,7 +15,7 @@ import fs from 'fs';
 import { SubmittableExtrinsic } from '@polkadot/api/promise/types';
 import { BigNumber } from 'ethers';
 
-/// <reference path="@webb-tools/types/interfaces/types.d.ts"
+/// <reference path="@nepoche/types/interfaces/types.d.ts"
 export function currencyToUnitI128(currencyAmount: number) {
   let bn = BigNumber.from(currencyAmount);
   return bn.mul(1_000_000_000_000);

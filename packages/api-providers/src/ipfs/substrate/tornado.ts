@@ -1,8 +1,8 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { getCachedFixtureURI, withLocalFixtures } from '@webb-tools/api-providers/index.js';
-import { LoggerService } from '@webb-tools/app-util/index.js';
+import { getCachedFixtureURI, withLocalFixtures } from '@nepoche/api-providers/index.js';
+import { LoggerService } from '@nepoche/app-util/index.js';
 
 const logger = LoggerService.get('IPFS');
 

@@ -1,7 +1,7 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { getCachedFixtureURI, withLocalFixtures } from '@webb-tools/api-providers/index.js';
+import { getCachedFixtureURI, withLocalFixtures } from '@nepoche/api-providers/index.js';
 
 export const fetchWasmForEdges = async (maxEdges: number) => {
   let ipfsHash: string;

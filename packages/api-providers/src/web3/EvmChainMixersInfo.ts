@@ -1,7 +1,7 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { AppConfig, evmChainStorageFactory, MixerSize, MixerStorage } from '@webb-tools/api-providers/index.js';
+import { AppConfig, evmChainStorageFactory, MixerSize, MixerStorage } from '@nepoche/api-providers/index.js';
 
 import { EVMChainId, evmIdIntoInternalChainId } from '../chains/index.js';
 import { Storage } from '../storage/index.js';

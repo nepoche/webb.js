@@ -1,10 +1,10 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 
 import WalletConnectProvider from '@walletconnect/web3-provider';
-import { ProvideCapabilities } from '@webb-tools/api-providers/index.js';
+import { ProvideCapabilities } from '@nepoche/api-providers/index.js';
 import { ethers } from 'ethers';
 import Web3 from 'web3';
 import { AbstractProvider } from 'web3-core';

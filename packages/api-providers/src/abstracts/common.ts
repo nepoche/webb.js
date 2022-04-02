@@ -1,4 +1,4 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 import { AnchorConfigEntry } from '../types/anchor-config.interface.js';

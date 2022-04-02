@@ -1,4 +1,4 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
 /* eslint-disable @typescript-eslint/no-unused-vars */
@@ -6,7 +6,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable prefer-promise-reject-errors */
-import type { Backend, Curve, HashFunction, JsNote, NoteProtocol, Version } from '@webb-tools/wasm-utils';
+import type { Backend, Curve, HashFunction, JsNote, NoteProtocol, Version } from '@nepoche/wasm-utils';
 
 /**
  * The note input used to generate a `Note` instance.
@@ -64,9 +64,9 @@ export class Note {
    */
   private static get wasm () {
     if (typeof process !== 'undefined' && process.versions != null && process.versions.node != null) {
-      return import('@webb-tools/wasm-utils/njs/wasm-utils-njs.js');
+      return import('@nepoche/wasm-utils/njs/wasm-utils-njs.js');
     } else {
-      return import('@webb-tools/wasm-utils/wasm-utils.js');
+      return import('@nepoche/wasm-utils/wasm-utils.js');
     }
   }
 

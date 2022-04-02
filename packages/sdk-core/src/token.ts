@@ -1,7 +1,7 @@
-// Copyright 2022 @webb-tools/
+// Copyright 2022 @nepoche/
 // SPDX-License-Identifier: Apache-2.0
 
-import { CurrencyId } from '@webb-tools/types/interfaces';
+import { CurrencyId } from '@nepoche/types/interfaces';
 
 import { ApiPromise, ApiRx } from '@polkadot/api';
 

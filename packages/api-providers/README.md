@@ -1,3 +1,3 @@
-# @webb-tools/api-providers
+# @nepoche/api-providers
 
 Utilities to work with Webb Network
